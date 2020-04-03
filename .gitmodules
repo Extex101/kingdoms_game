@@ -1,3 +1,12 @@
 [submodule "mods/discordmt"]
 	path = mods/discordmt
 	url = https://github.com/archfan7411/discordmt/
+[submodule "mods/3d_armor"]
+	path = mods/3d_armor
+	url = https://github.com/stujones11/minetest-3d_armor
+[submodule "mods/default"]
+	path = mods/default
+	url = https://github.com/minetest-game-mods/default
+[submodule "mods/player_api"]
+	path = mods/player_api
+	url = https://github.com/minetest-game-mods/player_api
