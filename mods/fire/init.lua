@@ -328,7 +328,6 @@ else
 					def.on_burn(p)
 				else
 					minetest.remove_node(p)
-					nodeupdate(p)
 				end
 			end
 		end,
