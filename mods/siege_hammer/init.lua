@@ -161,7 +161,6 @@ minetest.register_tool("siege_hammer:siege_hammer", {
 			if health <= 0 then
 				local drops = minetest.get_node_drops(minetest.get_node(pos).name, "siege_hammer:siege_hammer")
 				minetest.remove_node(pos)
-				nodeupdate(pos)
 				local dropitem = ItemStack(drops[1])
 				minetest.add_item(pos, dropitem)
 				local msg = "Siege alert! Protected node at (" .. tostring(pos.x) .. "," .. tostring(pos.y) .. "," .. tostring(pos.z) .. ")" .. " Was removed by " .. name .. "."
